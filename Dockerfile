@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=1.18.3
+ENV VERSION=1.18.4
 
 RUN gem install ajmalafif-jumpstart --version ${VERSION} --no-format-exec
 
